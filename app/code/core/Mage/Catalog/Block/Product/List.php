@@ -95,7 +95,7 @@ class Mage_Catalog_Block_Product_List extends Mage_Catalog_Block_Product_Abstrac
 
 
 
-        return $this->_productCollection->setOrder('name','desc');
+        return $this->_productCollection;
     }
 
     /**
