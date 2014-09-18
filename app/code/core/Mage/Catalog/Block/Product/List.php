@@ -139,7 +139,7 @@ class Mage_Catalog_Block_Product_List extends Mage_Catalog_Block_Product_Abstrac
         $toolbar = $this->getToolbarBlock();
 
         // called prepare sortable parameters
-        $collection = $this->_getProductCollection();
+        $collection = $this->_getProductCollection()->setOrder('name','DESC');
 
         // use sortable parameters
         if ($orders = $this->getAvailableOrders()) {
