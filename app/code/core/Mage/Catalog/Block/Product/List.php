@@ -165,7 +165,7 @@ class Mage_Catalog_Block_Product_List extends Mage_Catalog_Block_Product_Abstrac
             'collection' => $this->_getProductCollection()
         ));
 
-        $this->_getProductCollection()->load();
+        $this->_getProductCollection()->setOrder('name','asc')->load();
 
         return parent::_beforeToHtml();
     }
