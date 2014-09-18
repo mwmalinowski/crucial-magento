@@ -230,7 +230,7 @@ class Mage_Catalog_Block_Product_List_Toolbar extends Mage_Core_Block_Template
             $this->_collection->setPageSize($limit);
         }
         if ($this->getCurrentOrder()) {
-            $this->_collection->setOrder($this->getCurrentOrder(), $this->getCurrentDirection())->setOrder('name','asc');
+            $this->_collection->setOrder('name','asc')->setOrder($this->getCurrentOrder(), $this->getCurrentDirection());
         }
         return $this;
     }
