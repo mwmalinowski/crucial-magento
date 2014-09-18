@@ -1,0 +1,24 @@
+[25-Jul-2014 13:21:48 UTC] PHP Fatal error:  Call to a member function setStoreId() on a non-object in /home/sklapnet/public_html/app/code/core/Mage/Catalog/Helper/Product.php on line 300
+[25-Jul-2014 13:22:36 UTC] PHP Fatal error:  Call to a member function setStoreId() on a non-object in /home/sklapnet/public_html/app/code/core/Mage/Catalog/Helper/Product.php on line 300
+[25-Jul-2014 13:22:37 UTC] PHP Fatal error:  Call to a member function setStoreId() on a non-object in /home/sklapnet/public_html/app/code/core/Mage/Catalog/Helper/Product.php on line 300
+[25-Jul-2014 13:22:38 UTC] PHP Fatal error:  Class 'Packt_Helloworld_Model_Catalog_Product' not found in /home/sklapnet/public_html/lib/Varien/Data/Collection.php on line 562
+[25-Jul-2014 13:22:39 UTC] PHP Fatal error:  Class 'Packt_Helloworld_Model_Catalog_Product' not found in /home/sklapnet/public_html/lib/Varien/Data/Collection.php on line 562
+[25-Jul-2014 13:22:41 UTC] PHP Fatal error:  Class 'Packt_Helloworld_Model_Catalog_Product' not found in /home/sklapnet/public_html/lib/Varien/Data/Collection.php on line 562
+[25-Jul-2014 13:22:43 UTC] PHP Fatal error:  Class 'Packt_Helloworld_Model_Catalog_Product' not found in /home/sklapnet/public_html/lib/Varien/Data/Collection.php on line 562
+[25-Jul-2014 13:22:55 UTC] PHP Fatal error:  Call to a member function getCollection() on a non-object in /home/sklapnet/public_html/app/code/local/Packt/Helloworld/Block/Newproducts.php on line 7
+[25-Jul-2014 13:23:21 UTC] PHP Fatal error:  Call to a member function getCollection() on a non-object in /home/sklapnet/public_html/app/code/local/Packt/Helloworld/Block/Newproducts.php on line 7
+[25-Jul-2014 13:23:22 UTC] PHP Fatal error:  Call to a member function getCollection() on a non-object in /home/sklapnet/public_html/app/code/local/Packt/Helloworld/Block/Newproducts.php on line 7
+[25-Jul-2014 13:25:36 UTC] PHP Parse error:  syntax error, unexpected T_RETURN, expecting T_FUNCTION in /home/sklapnet/public_html/app/code/local/Packt/Helloworld/Model/Catalog/Product.php on line 5
+[25-Jul-2014 13:25:38 UTC] PHP Parse error:  syntax error, unexpected T_RETURN, expecting T_FUNCTION in /home/sklapnet/public_html/app/code/local/Packt/Helloworld/Model/Catalog/Product.php on line 5
+[25-Jul-2014 13:28:47 UTC] PHP Parse error:  syntax error, unexpected T_RETURN, expecting T_FUNCTION in /home/sklapnet/public_html/app/code/local/Packt/Helloworld/Model/Catalog/Product.php on line 5
+[25-Jul-2014 13:28:56 UTC] PHP Parse error:  syntax error, unexpected T_RETURN, expecting T_FUNCTION in /home/sklapnet/public_html/app/code/local/Packt/Helloworld/Model/Catalog/Product.php on line 5
+[25-Jul-2014 13:29:31 UTC] PHP Parse error:  syntax error, unexpected T_RETURN, expecting T_FUNCTION in /home/sklapnet/public_html/app/code/local/Packt/Helloworld/Model/Catalog/Product.php on line 5
+[25-Jul-2014 13:30:05 UTC] PHP Parse error:  syntax error, unexpected T_RETURN, expecting T_FUNCTION in /home/sklapnet/public_html/app/code/local/Packt/Helloworld/Model/Catalog/Product.php on line 5
+[25-Jul-2014 13:30:19 UTC] PHP Parse error:  syntax error, unexpected T_RETURN, expecting T_FUNCTION in /home/sklapnet/public_html/app/code/local/Packt/Helloworld/Model/Catalog/Product.php on line 5
+[25-Jul-2014 14:15:42 UTC] PHP Fatal error:  Call to undefined function flatAction() in /home/sklapnet/public_html/app/code/local/Packt/Helloworld/controllers/IndexController.php on line 22
+[26-Jul-2014 17:21:53 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/sklapnet/public_html/app/code/local/Sklar/LogProductUpdate/Model/Observer.php on line 12
+[29-Jul-2014 13:38:22 UTC] PHP Fatal error:  Call to undefined method Mage_Eav_Model_Config::getAttribtue() in /home/sklapnet/public_html/app/design/frontend/rwd/default/template/page/2columns-right.phtml on line 48
+[29-Jul-2014 13:40:40 UTC] PHP Fatal error:  Call to undefined method Mage_Eav_Model_Config::getAttribtue() in /home/sklapnet/public_html/app/design/frontend/rwd/default/template/page/2columns-right.phtml on line 48
+[05-Aug-2014 12:32:33 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32 bytes) in /home/sklapnet/public_html/lib/Zend/Db/Statement/Pdo.php on line 290
+[05-Aug-2014 13:01:34 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in /home/sklapnet/public_html/lib/Zend/Cache/Backend/File.php on line 987
+[31-Aug-2014 15:05:23 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Resource_Category_Flat_Collection::getAllIdsSql() in /home/sklapnet/public_html/app/code/core/Mage/Catalog/Model/Resource/Category/Tree.php on line 295

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Sklar_SetLengthOnUpdate>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Sklar_SetLengthOnUpdate>
+    </modules>
+</config>
