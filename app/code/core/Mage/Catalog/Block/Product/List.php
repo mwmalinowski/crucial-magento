@@ -139,7 +139,7 @@ class Mage_Catalog_Block_Product_List extends Mage_Catalog_Block_Product_Abstrac
         $toolbar = $this->getToolbarBlock();
 
         // called prepare sortable parameters
-        $collection = $this->_getProductCollection()->setOrder('name','DESC');
+        $collection = $this->_getProductCollection();
 
         // use sortable parameters
         if ($orders = $this->getAvailableOrders()) {
@@ -163,7 +163,7 @@ class Mage_Catalog_Block_Product_List extends Mage_Catalog_Block_Product_Abstrac
             'collection' => $this->_getProductCollection()
         ));
 
-        $this->_getProductCollection()->load();
+        $this->_getProductCollection()->setOrder('name','DESC')->load();
 
         return parent::_beforeToHtml();
     }
