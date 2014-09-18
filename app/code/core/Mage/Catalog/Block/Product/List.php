@@ -93,7 +93,9 @@ class Mage_Catalog_Block_Product_List extends Mage_Catalog_Block_Product_Abstrac
             }
         }
 
-        return $this->_productCollection;
+
+
+        return $this->_productCollection->setOrder('name','desc');
     }
 
     /**
@@ -163,7 +165,7 @@ class Mage_Catalog_Block_Product_List extends Mage_Catalog_Block_Product_Abstrac
             'collection' => $this->_getProductCollection()
         ));
 
-        $this->_getProductCollection()->setOrder('name','DESC')->load();
+        $this->_getProductCollection()->load();
 
         return parent::_beforeToHtml();
     }
