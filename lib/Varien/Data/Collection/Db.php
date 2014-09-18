@@ -270,7 +270,7 @@ class Varien_Data_Collection_Db extends Varien_Data_Collection
      */
     public function setOrder($field, $direction = self::SORT_ORDER_DESC)
     {
-        return $this->_setOrder($field, $direction)->_setOrder('name','asc');
+        return $this->_setOrder($field, $direction);
     }
 
     /**
